@@ -1,0 +1,65 @@
+body {
+    background-image: url(/images/leaves-7452420_1920.jpg); /*https://pixabay.com/fi/illustrations/lehdet-syksy-pudota-kausi-lehvist%C3%B6-7452420/*/
+    background-color: beige;
+    color: black;
+    font-family: 'SecFont', sans-serif;
+    font-size: 1.2em;
+
+  }
+
+  @font-face {
+    font-family: 'NewFont';
+    src: url('/fonts/Afton\ James.otf') format('OpenType'); /*https://www.1001freefonts.com/afton-james.font*/
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SecFont';
+    src: url('/fonts/cinnamon\ cake.ttf') format('TrueType'); /*https://www.1001freefonts.com/cinnamon-cake.font*/
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  h3 {
+    color: black;
+    font-size: 2em;
+    font-family: 'NewFont', sans-serif;
+    text-shadow: 2px 2px 2px beige;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-align: center;
+
+  }
+  
+  button {
+    margin-top: 5px;
+    height: 2em;
+    width: 5em;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 1em;
+    font-family: 'SecFont', sans-serif;
+    color: black;
+    background: linear-gradient(to bottom, red, rgb(240, 118, 62));
+    box-shadow: 1px 1px gray;
+  }
+  
+  button:hover {
+    background: orange;
+    font-weight: bold;
+    box-shadow: none;
+  }
+  
+  #message {
+    padding: 1em;
+    border: 2px solid black;
+    background-color: coral;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;
+  }
